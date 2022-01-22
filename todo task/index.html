@@ -7,6 +7,8 @@
     <title>to do list
 
     </title>
+    <link rel="stylesheet" href="style.css">
+
     <style>
         table {
           font-family: arial, sans-serif;
@@ -20,8 +22,7 @@
           padding: 8px;
         }
         
-        tr:nth-child(even) {
-          background-color: #dddddd;
+        
         }
         </style>
 
@@ -31,13 +32,24 @@
 <body>
 
     <header>
-   
-    <h1> your daily list </h1>
-    <nav>
+        <section>
+            <img src="https://via.placeholder.com/150x100/000"alt="" class="headerlogo">
+    
+    <nav class="header nav">
     <a href="home.html">home</a>
-   
-    <a href="about.html">about us</a>
+     <br>
+      <a href="about.html">about us</a>
+<br>
+<br>
+<br>
+    
+
 </nav>
+
+
+
+
+</section>
 <br>
 <br>
 <br>
@@ -46,41 +58,54 @@
 
 </header>
 <main>
+    <h1> ToDo list </h1>
+
+        <section>
     <table>
-        <tr>
+        <tr class="white">
           <th>list</th>
           <th>status</th>
         </tr>
-        <tr>
+    
+        <tr id="green">
             <td>having breakfast</td>
-            <td>done-undone</td>
+
+
+           <td>done-undone </td>
+
         
+
           </tr>
           
-
+       
         
           <tr>
             <td>start trainig</td>
+          
             <td>done-undone</td>
-            
+       
           </tr>
+
           <tr>
             <td>do the tasks</td>
-            <td>done-undone</td>
             
-          </tr>
+            <td>done-undone</td>
+                 </tr>
 
           <tr>
             <td>having lunch</td>
+
             <td>done-undone</td>
-            
+     
+
           </tr>
           </table>
-
+        </section>
 
 </main>
     
 <footer>
+   
     <ul>
         <li><a href="https://www.betacalendars.com/uploads/2021/02/2022-Calendar-scaled.jpg">calender</a>
         </li>
@@ -88,6 +113,12 @@
     
         
       </ul>
+   
+
+ 
+        <h6> <copyright:2022></copyright:2022> &copy;</h6>
+
+    
 
 </footer>
 
