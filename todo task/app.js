@@ -14,14 +14,14 @@ case "female":
     alert ("your gender is not valid");
 }
 
-
+let arr = [A1,A2.A3]
 
 function answer1 (A1){
     if(A1=="yes" || "why")
     return "yes" ;
 }
 
-function answer1 (A1){
+function answer12 (A1){
     if(A1=="no" || "n")
     return "no" ; }
 
@@ -30,7 +30,7 @@ function answer1 (A1){
         return "yes" ;
     }
 
-    function answer2 (A2){
+    function answer22 (A2){
         if(A2=="no" || "n")
         return "no" ;
     }
@@ -40,7 +40,7 @@ function answer1 (A1){
         return "yes" ;
     }
 
-    function answer3 (A1){
+    function answer33 (A1){
         if(A3=="no" || "n")
         return "no" ; }
 
@@ -52,10 +52,23 @@ function answer1 (A1){
         
 
         let A1 = prompt("are u happy");
-        let A2 =prompt("are u sad") ;
-        let A3 =prompt("are u mad") ;
+        if (A1==answer1){
+        clone.log(answer1)}
+        else { console.log(answer12) ;
+        }
 
-        Answers [] ;
+        let A2 =prompt("are u sad") ;
+        if (A2==answer2){
+            clone.log(answer2); }
+            else { console.log(answer22) ;
+            }
+
+        let A3 =prompt("are u mad") ;
+        if (A3==answer3){
+            clone.log(answer3); }
+            else { console.log(answer33) ;
+            }
+        
 
   for (i=1 ; i<4 ;i+=)
     {console.log(answers[i]);
